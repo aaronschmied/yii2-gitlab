@@ -1,0 +1,25 @@
+{
+    "name": "aaronschmied/yii2-gitlab",
+    "description": "Gitlab API Wrapper for Yii2.",
+    "keywords": ["yii2", "gitlab"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/aaronschmied/yii2-gitlab/issues",
+        "source": "https://github.com/aaronschmied/yii2-gitlab"
+    },
+    "authors": [
+        {
+            "name": "Aaron Schmied",
+            "email": "aaron@pro-sales.ch"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.11",
+        "m4tthumphrey/php-gitlab-api": "^9.3",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "autoload": {
+        "psr-4": { "aaronschmied\\gitlab\\": "" }
+    }
+}
